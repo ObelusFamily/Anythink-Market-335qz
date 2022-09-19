@@ -10,4 +10,7 @@ When implementing a new feature or fixing a bug, please create a new pull reques
 
 ## First setup
 
-**[TODO 05/01/2018 @vanessa-cooper]:** _It's been a while since anyone ran a fresh copy of this repo. I think it's worth documenting the steps needed to install and run the repo on a new machine?_
+1. Goto the root folder of the project and type the command - `docker compose up`
+2. This command executes the `docker-compose.yml` file and deploys the code in the local environment
+3. Use the url to test the backend - `http://localhost:3000/ping`
+4. Use the url to test the frontend - `http://localhost:3001/register`
